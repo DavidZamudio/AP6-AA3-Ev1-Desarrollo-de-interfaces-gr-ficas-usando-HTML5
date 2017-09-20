@@ -2,16 +2,18 @@
 <html lang="es">
     <head>
         <title>AP6-AA3-Ev1 Desarrolo de Interfaces graficas con html5</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <LINK rel=StyleSheet href="css/estilos.css" type="text/css" media=screen>
-        <LINK rel=StyleSheet href="css/normalize.css" type="text/css" media=screen>
+        <meta charset="UTF-8"/>
+        <meta name="description" content="evidencia para ADSI sena fichas #1310001"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel=StyleSheet href="css/estilos.css" type="text/css" media=screen>
+        <link rel=StyleSheet href="css/normalize.css">
     </head>
     <body>
-        <header id="header">
-            <figure id="Logo">
-                <img src="img/logo.jpg" alt="huellas"/>
-            </figure>
+        <header>
+            <figure id="logo1">
+                <img src="img/logo.jpg" alt=""/>
+            </figure>     
+            
             <h2 class="titulo2">Centro Veterinario</h2>
             <h1 class="titulo1">
                 Caninos y Felinos
@@ -32,18 +34,51 @@
             <h3> articulo </h3>
                 
         </section>
+        
+       
+            <form class="formulario">
+                <div>                        
+                <label for="nombre">nombre de la mascota</label>
+                    <input type="text" required placeholder="pon tu nombre"/>
+                </div>
+                <div>
+                    <label for="email">E-mail del responsable</label>
+                    <input type="text" required placeholder="pepito@gmail.com"/>
+                </div>    
+                    <label for="mujer">
+                        <input type="radio" id="perra" name="sexo"> perro
+                    </label>
+                    
+                    <label for="hombre">
+                        <input type="radio" id="perro" name="sexo"> gato
+                    </label>
+                    <div>                  
+                           <label for="nombre">edad de la mascota</label>
+                           <input type="text" required id="nombre"/>
+                           <label for="raza">raza de la mascota</label>
+                           <input type="text" required id="raza de la mascota"/>
+                           <label for="raza">fecha de consulta</label>
+                           <input type="text" required placeholder="18/03/2017"/>
+                           <label for="nombre">hora de consulta</label>
+                           <input type="text" required placeholder="8:00am"/>
+                           <label for="nombre">responsable</label>
+                           <input type="text" required placeholder="pepito"/>
+                           
+                    </div>       
+                    
+        </section>
        
         <footer>
             <p>
-                <strong>Contactenos</strong>
-                <a>linea gratuita al 0018000-00001</a>
-                <a>correo: preguntas@caninosyfelinos.com</a>
+                <strong>Contactenos</strong> </p>
+                <p>linea gratuita al 0018000-00001</p>
+                <p>correo:<a> preguntas@caninosyfelinos.com</a></p>
                 
-            </p>    
+                    
+                </form>
+                    
                 
-            
-                
-        </footer>
+       </footer>
             
         
     </body>
